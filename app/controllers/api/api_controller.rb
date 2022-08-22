@@ -2,9 +2,27 @@
 
 class Api::ApiController < ActionController::API
   before_action :authenticate_request
+
+  around_action :exception_handling
   attr_reader :current_user, :errors
 
   private
+
+  def exception_handling
+    yield
+  rescue ArgumentError => e
+    render_error(e.message, :unprocessable_entity)
+  rescue ActiveRecord::RecordNotFound
+    render_error("Resource not found", :not_found)
+  rescue UnauthorizedError => e
+    render_error(e.message, :unauthorized)
+  rescue ActionController::UnpermittedParameters => e
+    render_error("You are not allowed to perform this action, #{e.message}", :forbidden)
+  end
+
+  def render_error(error_message, status)
+    render json: { message: error_message }, status: status
+  end
 
   def initialize
     @errors = []
