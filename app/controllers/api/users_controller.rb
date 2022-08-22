@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Api::UsersController < ApplicationController
+class Api::UsersController < Api::ApiController
   protect_from_forgery with: :null_session
 
   def create_user

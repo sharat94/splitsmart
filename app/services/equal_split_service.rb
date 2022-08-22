@@ -1,7 +1,6 @@
 class EqualSplitService < BaseSplitService
 
   def simplify_user_transaction
-    byebug
     group.users.each do |user|
       owed_share = (expense.amount / group.users.size).round(2)
       paid_share = expense.expense_payers.find_by(payer_id: user.id)&.amount&.round(2) || 0
