@@ -75,11 +75,12 @@ test:
 #
 # You can use this database configuration with:
 #
-#   production:
-#     url: <%= ENV['DATABASE_URL'] %>
-#
 production:
-  <<: *default
-  database: splitsmart_production
-  username: splitsmart
-  password: <%= ENV['SPLITSMART_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
+#
+#production:
+#  <<: *default
+#  url: <%#= ENV['DATABASE_URL'] %>
+#  database: splitsmart_production
+#  username: splitsmart
+#  password: <%#= ENV['SPLITSMART_DATABASE_PASSWORD'] %>
