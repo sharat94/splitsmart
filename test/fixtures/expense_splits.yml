@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  payer_id: 1
+  payee_id: 1
+  expense_id: 1
+  split_by_value: 9.99
+
+two:
+  payer_id: 1
+  payee_id: 1
+  expense_id: 1
+  split_by_value: 9.99

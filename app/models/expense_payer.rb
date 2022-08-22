@@ -1,0 +1,2 @@
+class ExpensePayer < ApplicationRecord
+end
