@@ -11,7 +11,7 @@ class Api::V1::ExpensesController < Api::ApiController
   end
 
   def create
-    CreateExpenseService.call(params)
+    CreateExpenseService.new.record(params)
     render json: { success: true}
   end
 end
