@@ -1,24 +1,37 @@
-# README
+## SplitSmart
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Find postman docs here -> https://documenter.getpostman.com/view/913809/VUqpvJJ2
 
-Things you may want to cover:
+## Objective:
+- Create a new expense
+    - The expense can be split between any number of users
+    - The expense can be paid for by any number of users
+    - The expense can be split equally / by percentage / manually
+- View the list of all expenses split with you, regardless of which user created the
+  expense
+- View outstanding balances with all the users you have split expenses with in the
+  past
+- View your overall outstanding balance
 
-* Ruby version
+## Tech:
+Framework: Rails 6.0.5.1
 
-* System dependencies
+Language: Ruby 3.0.1
 
-* Configuration
+DB: Postgres
 
-* Database creation
+[Tech Spec](docs/TECH_SPEC.md) 
 
-* Database initialization
 
-* How to run the test suite
+## Steps to run:
 
-* Services (job queues, cache servers, search engines, etc.)
+Create local DB: `rails db:create` 
 
-* Deployment instructions
+Migrate local DB: `rails db:migrate`
 
-* ...
+Migrate local DB: `rails db:seed`
+
+Run server: `rails s`
+
+Run tests `rspec`
+
