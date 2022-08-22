@@ -5,12 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bca5658e-76e8-4583-acbf-301233ba35e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/TECH_SPEC.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/splitsmart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/splitsmart.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/expense.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/expense.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/expense_payer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/expense_payer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/expense_split.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/expense_split.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/group.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/group.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/settlement.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/settlement.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user_group.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user_group.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/TECH_SPEC.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/TECH_SPEC.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/splitsmart-ED.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/splitsmart-ED.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/expense_payer_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/expense_payer_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/expense_split_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/expense_split_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/expense_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/expense_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/group_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/group_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/settlement_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/settlement_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/user_group_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_group_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +203,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660921741061</updated>
-      <workItem from="1660921742303" duration="33984000" />
+      <workItem from="1660921742303" duration="35843000" />
     </task>
     <task id="LOCAL-00001" summary="Added exception handling">
       <created>1661187230166</created>
