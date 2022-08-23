@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Api::AuthenticationController < Api::ApiController
+class Api::AuthenticationController < ApplicationController
   protect_from_forgery with: :null_session
 
   def authenticate

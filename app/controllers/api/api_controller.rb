@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Api::ApiController < ActionController::API
+class Api::ApiController < ApplicationController
   before_action :authenticate_request
 
   around_action :exception_handling

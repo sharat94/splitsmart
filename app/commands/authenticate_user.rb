@@ -10,7 +10,7 @@ class AuthenticateUser
   end
 
   def call
-    JwtService.encode(user_id: user.id) if user
+    JwtService.encode(id: user.id) if user
   end
 
   private

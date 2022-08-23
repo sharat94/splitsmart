@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :expenses
       resources :balances, only: [:index]
+      resources :groups, only: [:index]
     end
   end
 end

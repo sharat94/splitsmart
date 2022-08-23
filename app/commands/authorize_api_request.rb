@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 class AuthorizeApiRequest
-  prepend SimpleCommand
 
   attr_reader :headers
 
