@@ -25,7 +25,7 @@ class Api::ApiController < ActionController::API
   end
 
   def authenticate_request
-    @current_user = AuthorizeApiRequest.new(request.headers).call
+    @current_user = AuthorizeApiRequest.new(request.headers).authorize
     render json: { error: 'Not Authorized' }, status: 401 unless @current_user
   rescue ActiveRecord::RecordNotFound
     render json: { error: 'Not Authorized' }, status: 401

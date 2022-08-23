@@ -9,7 +9,7 @@ class AuthorizeApiRequest
     @headers = headers
   end
 
-  def call
+  def authorize
     user
   end
 
