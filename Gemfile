@@ -13,6 +13,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.8', '>= 4.8.1'
 gem 'simple_command'
 gem 'jwt'
+gem 'net-smtp', require: false
+gem 'net-imap', require: false
+gem 'net-pop', require: false
 gem 'dotenv-rails', groups: [:development, :test]
 
 group :development, :test do
