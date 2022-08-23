@@ -3,6 +3,8 @@
 Find postman docs here -> https://documenter.getpostman.com/view/913809/VUqpvJJ2
 
 Splitsmart Google sheet Examples -> https://docs.google.com/spreadsheets/d/1qf3PellLFuIrTM9aZvC3Azi8b5FLPaIhBopdKKE1sZA/edit?usp=sharing
+
+API backend: https://splitsmart-app.herokuapp.com
 ## Objective:
 - Create a new expense
     - The expense can be split between any number of users
