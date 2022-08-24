@@ -38,3 +38,8 @@ Run server: `rails s`
 
 Run tests `rspec`
 
+## Future Scope:
+
+Add feature support for simplify debts
+
+Add feature support for multiple currencies
